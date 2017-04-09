@@ -4,22 +4,8 @@ import expect from 'expect';
 import { mount } from 'enzyme';
 
 import { NoteList } from './NoteList';
+import { notes } from '../fixtures/fixtures';
 
-const notes = [
-  {
-    _id: 'noteId1',
-    title: 'test note 1',
-    body: 'test note body 1',
-    updatedAt: 0,
-    userId: 'userId1'
-  }, {
-    _id: 'noteId2',
-    title: 'test note 2',
-    body: 'test note body 2',
-    updatedAt: 0,
-    userId: 'userId2'
-  }
-];
 
 if(Meteor.isClient) {
   describe('NoteList', function () {
