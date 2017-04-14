@@ -1,5 +1,9 @@
+// body
+$body-background-color: #fafafa;
+$body-default-color: #333333;
+
 // Colors
-$brand-primary: #5b4681;
+$brand-primary: #397ab1;
 $grey: #dddddd;
 $light-grey: #f9f9f9;
 $dark-grey: #777777;
@@ -19,6 +23,7 @@ $input-spacing: 1rem;
 // Boxed view
 $boxed-view-overlay-bg: $grey;
 $boxed-view-bg: white;
+$boxed-view-border-color: $grey;
 
 // Button
 $button-bg: $brand-primary;
